@@ -1,0 +1,27 @@
+https://www.youtube.com/watch?v=6KoBsJfYBPM&list=PL0Zuz27SZ-6PkWWk_mA2vkimUTJf81mNz&index=1&ab_channel=DaveGray
+
+git init
+git status
+git add [file_name]
+git restore [file_name] # unstage an 'add'
+git restore --staged [file_name] # uncommit a 'add'
+-----
+git log
+git log --oneline # view a log commits, each commit on one line
+-----
+git commit -m "commit message"
+git commit -v --amend # rename the last commit
+-----
+git branch --list
+git branch [new_branch_name] # create a new branch
+git branch -m [old_branch_name] [new_branch_name] # rename a branch
+git checkout [branch_name] # switch to a branch
+git checkout [commit_id] # go to previous commit
+git checkout -b [new_branch_name] # do both at once, create and switch to new branch 
+-----
+git merge [branch_name]
+-----
+git revert [commit_id] # revert to a previous commit
+-----
+git reset [commit_id] # revert to a previous commit and unstage the work that we comleted
+git reset [commit_id] --hard # this one deletes permanently
