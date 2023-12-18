@@ -25,3 +25,5 @@ git revert [commit_id] # revert to a previous commit
 -----
 git reset [commit_id] # revert to a previous commit and unstage the work that we comleted
 git reset [commit_id] --hard # this one deletes permanently
+-----
+gitk --all
